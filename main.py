@@ -8,35 +8,35 @@ app = Flask(__name__, static_folder='static', static_url_path='/static')
 helper.main()
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('/templates/index.html')
 
 @app.route('/index')
 def index_page():
-    return render_template('index.html')
+    return render_template('/templates/index.html')
 
 @app.route('/data')
 def data():
-    return render_template('data.html')
+    return render_template('/templates/data.html')
 
 @app.route('/tutorial')
 def tutorial():
-    return render_template('tutorial.html')
+    return render_template('/templates/tutorial.html')
 
 @app.route('/methods')
 def methods():
-    return render_template('methods.html')
+    return render_template('/templates/methods.html')
 
 @app.route('/aboutus')
 def aboutus():
-    return render_template('aboutus.html')
+    return render_template('/templates/aboutus.html')
 
 @app.route('/visualize')
 def visualize():
-    return render_template('visualize.html')
+    return render_template('/templates/visualize.html')
 
 @app.route('/reasoning')
 def reasoning():
-    return render_template('reasoning.html')
+    return render_template('/templates/reasoning.html')
 
 
 @app.route('/update_humanmap', methods=['POST'])
