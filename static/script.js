@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var selectedOption = subfolderSelect.options[subfolderSelect.selectedIndex];
     var folderName = selectedOption.text;
 
-    var imageSrc = "/dataset/" + folderName + "/" + floor.toString() + "/saved_obs/best_color_" + index + ".png";
+    var imageSrc = "/static/dataset/" + folderName + "/" + floor.toString() + "/saved_obs/best_color_" + index + ".png";
 
     // 判断是更新image2还是image3
     if (nextCanvasToUpdate === 2) {
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
     floor =0;
     var selectedOption = subfolderSelect.options[subfolderSelect.selectedIndex];
     scene = selectedOption.text;
-    sceneName = "/dataset/" + selectedOption.text + "/";
+    sceneName = "/static/dataset/" + selectedOption.text + "/";
     console.log("Selected Text:", sceneName);
     if (pointmap[scene + ":" + floor.toString()] && pointmap[scene + ":" + floor.toString()].saved_grid_pose) {
       saved_grid_pose = pointmap[scene + ":" + floor.toString()].saved_grid_pose;
@@ -255,7 +255,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   subfolderSelect.addEventListener("change", function() {
     var selectedOption = subfolderSelect.options[subfolderSelect.selectedIndex];
-    sceneName = "/dataset/" + selectedOption.text + "/";
+    sceneName = "/static/dataset/" + selectedOption.text + "/";
     console.log("Selected Text:", sceneName);
     showImage1 = true;
     showImage2 = false;
