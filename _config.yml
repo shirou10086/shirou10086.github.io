@@ -6,115 +6,92 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Jinli Duan
+title: Computer Engineering, M.S. Candidate
+email: jd5374@nyu.edu
+website: www.github.com/your_github_username_here  # Replace with your GitHub username if you have one
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+# Add your social media usernames or comment out the ones you don't use
+twitter_username: your_twitter_username_here
+github_username:  your_github_username_here
+instagram_username: your_instagram_username_here
+linkedin_username: your_linkedin_username_here
+youtube_username: your_youtube_username_here
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+# Add any additional links you want to display
+# - title: Link title
+#   icon: font awesome brand icon name
+#   url: Link url
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+about_content: |
+  Jinli Duan, a Computer Engineering M.S. candidate at New York University with a background in Software Engineering from the University of California, Irvine. Skilled in Java, Python, C++, and various other technologies. Native speaker of Mandarin and proficient in English.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        title: New York University
+        sub_title: Computer Engineering, M.S.
+        caption: June 2022-2024
+        description: |
+          Relevant Coursework: Machine Learning, Deep learning, Internet Architecture etc.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: University of California, Irvine
+        sub_title: Software Engineering, B.S.
+        caption: June 2018-2022
+        description: |
+          Relevant Coursework: Python, Database, C++, Java, Linear Algebra etc.
+          Former vice president of Astronomy club at UCI.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: Covenant Christian High School
+        sub_title: Academic Honors Diploma
+        caption: Jan 2014-2018
+        description: |
+          AP physics C, AP Calculus AB/BC.
 
-  - title: A Little More About Me
+  - title: Skills
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+    content: |
+      Computer: Java/Python/C++ Js/Node.js/CSS/HTML MIPS UI/UX design MySql/Postgresql/MongoDB etc
+      Language: Chinese(Mandarin):Native speaker, English: proficient
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  - title: Honors
+    layout: list
+    content:
+      - layout: left
+        title: National Honor Society
+        caption: 2017-2018
+
+      - layout: left
+        title: Academic Scholarship
+        caption: 2022-2024
+
+      - layout: left
+        title: Dean’s list
+        caption: 2021-2022
+
+  - title: Internship
+    layout: list
+    content:
+      # ... Add all your internships here in a similar format ...
+
+  - title: Projects
+    layout: list
+    content:
+      # ... Add all your projects here in a similar format ...
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
