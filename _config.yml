@@ -7,20 +7,17 @@ version: 2
 
 # Personal info
 name: Jinli Duan
-title: Computer Engineering, M.S. Candidate
+title: Computer Engineering, M.S. 
 email: jd5374@nyu.edu
-website: www.github.com/your_github_username_here  # Replace with your GitHub username if you have one
+website: www.github.com/shirou10086 
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 # Add your social media usernames or comment out the ones you don't use
-twitter_username: your_twitter_username_here
-github_username:  your_github_username_here
-instagram_username: your_instagram_username_here
-linkedin_username: your_linkedin_username_here
-youtube_username: your_youtube_username_here
+github_username:  shirou10086
+linkedin_username: jinli-duan-939863256
 
 # Additional icon links
 # Add any additional links you want to display
@@ -83,12 +80,102 @@ content:
   - title: Internship
     layout: list
     content:
-      # ... Add all your internships here in a similar format ...
+      - layout: left
+        title: Calteach, UC Irvine
+        sub_title: Teaching Assistant
+        caption: Jan 2019 – June 2019
+        description: |
+          Volunteered as a Teaching Assistant for a local elementary school for a duration of six months.
+          Assisted over 100 students in STEM classes.
+          Provided academic support and guidance to enhance students' understanding of STEM concepts.
+
+      - layout: left
+        title: Zopeak Inc
+        sub_title: Software Engineer Intern
+        caption: Mar 2020 – August 2020
+        description: |
+          Engaged in the development of Zopeak Star, a building information modelling software tailored for curtain wall design.
+          Facilitated effective communication and collaboration between the front-end and back-end development teams.
+          Methodically gathered and analyzed stakeholder requirements, subsequently composing comprehensive requirement documents.
+          Under the expert supervision of Dr. Sun, the Chief Executive Officer.
+
+      - layout: left
+        title: Glodon Software
+        sub_title: Full Stack Developer Intern
+        caption: April 2021 – August 2021
+        description: |
+          Actively participated in the management and documentation of web development tasks.
+          Undertook responsibilities in maintaining the Glodon web system, ensuring its seamless operation and performance.
+          Made significant contributions to backend support in a 3D modeling project that leveraged AutoCAD technology.
+
+      - layout: left
+        title: UC Irvine
+        sub_title: Teaching Assistant
+        caption: Sep 2021 – Dec 2021
+        description: |
+          Provided support to Professor Gassko as a Learning Assistant for ICS6B, an intensive discrete math course, throughout a complete academic quarter.
+          Convened comprehensive exam review sessions, held regular office hours, and actively participated in lectures.
+          Skilfully facilitated exam preparation and elevated comprehension of course material through personalized and tailored guidance and instruction.
 
   - title: Projects
     layout: list
     content:
-      # ... Add all your projects here in a similar format ...
+      - layout: left
+        title: Adoption of holographic displays to explore scatter plots
+        caption: Mar 2022 – June 2022
+        description: |
+          Developed an online application for 3D Visualization and Holographic Display of Scatter Plots.
+          Utilized three.js for advanced rendering.
+          Enabled users to save and load completed 3D modeling projects from the server.
+          Prepared comprehensive persona and user guide documents to optimize user experience.
+
+      - layout: left
+        title: Audioscribe
+        caption: Jan 2022 – June 2022
+        description: |
+          Developed a cutting-edge application for Patient Voice Recording Analysis and Segmentation.
+          Leveraged machine learning and data visualization techniques.
+          Demonstrated the application's efficacy at the esteemed National Capstone Design Conference.
+
+      - layout: left
+        title: Learning-based diet recommendation systems for diabetes management
+        caption: June 2022 – July 2023
+        description: |
+          Preprocessed datasets and extracted textual features using TF-IDF.
+          Implemented the FNN neural network algorithm for efficient search and tailored diet recommendations.
+          Benchmarked with KNN/SVM.
+      - layout: left
+        title: Spatial Reasoning
+        caption: Mar 2023 – Ongoing
+        description: |
+          Successfully addressed the challenge of long baseline matching in perspective RGB images with limited overlap.
+          Inferred spatial connections and established corridors between distantly related, partially overlapping images.
+          Conducted a thorough application and comparative analysis of both supervised and unsupervised learning algorithms, including VGG16, ViT_B16_224, and SuperGlue.
+
+      - layout: left
+        title: A New Concurrent Database Structure Design for Performance Optimization
+        caption: May 2023 – Ongoing
+        description: |
+          Utilized key prefix for efficient in-memory storage.
+          Employed a hash mechanism to map key-value pairs to a disk-based slice.
+          Implemented buffering to handle insert bursts effectively.
+          Benchmark against various data structures including B+Tree, SA B+Tree, Kraska B+Tree, and others for performance evaluation.
+
+      - layout: left
+        title: An Integrated Online Search Engine and Recommender System for Job Listings
+        caption: Sep 2022 – Mar 2023
+        description: |
+          Preprocessed job listings to create a structured dataset.
+          Employed BERT model on the job listing dataset to convert it into numpy arrays and calculated similarity scores using cosine similarity and KNN+KDTree.
+          Developed a personalized recommender system based on user profiles and search history.
+
+      - layout: left
+        title: Improving Scientific Workflow Robustness
+        caption: June 2023 – Ongoing
+        description: |
+          Designed and implemented a comprehensive system to enhance the robustness of Scientific Workflows.
+          Successfully replicated workflows using reprozip and efficiently managed them with Kubernetes.
+          Streamlined the debugging process using Bugdoc and automated the upgrade process using VersionClimber.
 
 # Footer
 footer_show_references: true
